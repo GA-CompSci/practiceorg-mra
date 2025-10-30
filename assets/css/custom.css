@@ -1,0 +1,53 @@
+/**** 
+PUT YOUR COLOR CHEAT SHEET HERE 
+ --dark-base: #3A2C35;
+  --light-gray: #D6D2D2;
+  --light-lavender: #F1E4F3;
+  --soft-pink: #F4BBD3;
+  --medium-pink: #F686BD;
+  --bright-pink: #FE5D9F;
+
+******/
+
+
+/***** FONTS ******/
+/***** FONTS ******/
+/***** FONTS ******/
+
+body, p, div {
+    font-family: "Roboto Flex", sans-serif;
+    color:#3A2C35;
+}
+h1, h2, h3, h4, h5, h6,
+.header-logo a,
+.nav-link {
+  font-family: 'Roboto Condensed', sans-serif;
+  color:  #3A2C35;
+}
+
+/***** HEADER ******/
+.header {
+  color: #F1E4F3;
+  background-color: #F4BBD3;
+  border-bottom: 1px solid  #FE5D9F;
+}
+
+.header-logo a {
+  color:#F4BBD3;
+  font-weight: 700;
+}
+
+.top {
+  display: block;  
+  text-align: center;
+}
+/****** BUTTONS****/
+.btn, 
+.button-text-3, 
+.button-circle {
+  background-color: var(--bright-pink);
+  color: white !important;
+  border: none;
+  border-radius: 9999px;
+  padding: 10px 22px;
+  transition: 0.3s ease;
