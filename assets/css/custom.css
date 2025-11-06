@@ -27,19 +27,21 @@ h1, h2, h3, h4, h5, h6,
 
 /***** HEADER ******/
 .header {
-  color: #F1E4F3;
-  background-color: #F4BBD3;
-  border-bottom: 1px solid  #FE5D9F;
+  border-bottom: 1px solid  #ff82b6;
 }
 
+.header.header-color-dark {
+    background: #F4BBD3;
+}
 .header-logo a {
   color:#F4BBD3;
   font-weight: 700;
 }
-
-.top {
-  display: block;  
-  text-align: center;
+.bg-gray-lighter {
+    background: #ffffff;
+}
+.container .portfolio-masonry.spacing-3 {
+  background-color:#ffe2ee;
 }
 /****** BUTTONS****/
 .btn, 
@@ -51,3 +53,43 @@ h1, h2, h3, h4, h5, h6,
   border-radius: 9999px;
   padding: 10px 22px;
   transition: 0.3s ease;
+}
+.events{
+  font-size: 40px;
+}
+.events-list{
+  font-size: 20px;
+}
+
+
+.portfolio-img {
+    width: 100%;
+    height: 434px !important;
+}
+.portfolio-img {
+		width: 100%;
+		height: 300px; /* Adjust height if you want larger/smaller cards */
+		overflow: hidden;
+		border-radius: 10px;
+	}
+
+	.portfolio-img img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	/* Active filter styling */
+	.filter ul li.active {
+		font-weight: 600;
+		border-bottom: 2px solid #000;
+		cursor: pointer;
+	}
+
+	.filter ul li {
+		cursor: pointer;
+	}
+
+.mt-2{
+  color: #747373;
+}
