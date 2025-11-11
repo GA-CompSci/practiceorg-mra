@@ -93,3 +93,32 @@ h1, h2, h3, h4, h5, h6,
 .mt-2{
   color: #747373;
 }
+
+#hygiene {
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 25px; /* reduce from 50px */
+}
+
+#button-video {
+  text-align: center;
+  background-color: #F686BD;
+  margin-bottom: 5px; /* reduce from 10px */
+}
+
+#button-video:hover{
+  background-color: #F4BBD3;
+}
+
+.btn-primary {
+  text-align: center;
+  background-color: #F686BD;
+  margin-bottom: 10px;
+}
+.btn-primary:hover {
+  background-color: #F4BBD3;
+
+}
+#hg .container {
+  padding-top: 100px;  /* remove space above the numbers */
+}
