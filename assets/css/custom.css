@@ -117,8 +117,40 @@ h1, h2, h3, h4, h5, h6,
 }
 .btn-primary:hover {
   background-color: #F4BBD3;
-
 }
+  /* Style for the Watch Video button */
+.btn-video {
+  background-color: #F686BD;
+  border: none;
+  border-radius: 50px; /* pill shape */
+  padding: 8px 18px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.6);
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-video:hover {
+  background-color: #F4BBD3;
+  box-shadow: 0 6px 14px rgba(255, 105, 180, 0.6);
+  transform: translateY(-3px) scale(1.05);
+}
+
 #hg .container {
   padding-top: 100px;  /* remove space above the numbers */
+}
+
+#top {
+  color: #D6D2D2;
+  transition: color 0.3s ease; /* smooth color change */
+}
+
+#top:hover {
+  color: #FE5D9F; /* your pink color */
+}
+
+.button-text-3 {
+  color: #3A2C35;
 }
